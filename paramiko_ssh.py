@@ -6,9 +6,9 @@ commands = ['_cmdline-mode on\n', 'Y\n', 'Jinhua1920unauthorized\n\n', 'dis cur 
 max_buffer = 65535
 devices = {
    'monitoramento': {
-      'ip': '10.1.19.205',
+      'ip': '192.168.23.56',
       'username': 'admin@system',
-      'password': 'n1ctj&p@2019'
+      'password': '12345678'
       #'port': '8181'
       }
    }
@@ -42,4 +42,5 @@ for device in devices.keys():
         if id == 4:
             print(output)
            
+
 new_connection.close()
